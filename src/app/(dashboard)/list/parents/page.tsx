@@ -49,7 +49,7 @@ const ParentListPage = () => {
                 <div className="flex items-center gap-2">
                     <Link href={`/list/teacher/${item.id}`} >
                         <button className="flex w-7 h-7 items-center justify-center rounded-full bg-starSky">
-                            <Image src={"/view.png"} alt="logo" width={16} height={16} />
+                            <Image src={"/edit.png"} alt="logo" width={16} height={16} />
                         </button>
                     </Link>
                     {role === "admin" && (<Link href={`/list/teacher/${item.id}`} >
